@@ -72,14 +72,22 @@ npm test
 
 # Features
 
-Unauthorized users can view all 10 existing contacts details, search a contact using different filters, add new contacts.
+### For Unauthorized Users:
+View Contact Details: Unauthorized users can access the details of all 10 pre-existing contacts.
+Search Functionality: They can search for a specific contact using various filters.
+Add New Contacts: Unauthorized users have the permission to add new contacts to the list.
 
-Authorized users can edit and delete a contact by Right clicking on contact in the table. Only authorized users are able to edit and delete a contact. Sample user account
+### For Authorized Users:
+Edit and Delete Contacts: Authorized users have the additional capability to edit and delete contacts. This can be done by right-clicking on the specific contact within the table. These advanced features are restricted to authorized users only.
+Sample User Account for Testing:
+To facilitate testing, below are the credentials of a sample user account:
 
 ```bash
        username - admin
        password - admin123
 ```
+
+This account provides a practical example of the access and functionalities available to authorized users.
 
 # Test
 
