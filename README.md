@@ -24,6 +24,16 @@ docker run -d -p 3000:3000 --network bcgov-network --name backend anmolsinghturk
 docker run -d -p 8000:8000 --network bcgov-network --name frontend anmolsinghturka/frontend:latest
 ```
 
+3. Navigate to browser  
+backend
+```bash
+http://localhost:3000/api/api-docs/ 
+```
+frontend
+```bash
+http://localhost:8000/
+```
+
 ### Option 2 Run using Docker Compose
 
 1. Clone the entire repository:
