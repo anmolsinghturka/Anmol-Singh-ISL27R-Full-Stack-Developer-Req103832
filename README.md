@@ -12,26 +12,21 @@ To launch the app using docker, follow these steps:
 
 ### Option 1 Run using Docker Hub
 
-1. Pull image from docker hub for the backend
+1. Pull image from docker hub for the backend and frontend
 
 ```bash
 docker run -d -p 3000:3000 --network bcgov-network --name backend anmolsinghturka/backend:latest
+
 ```
-
-2. Pull image from docker hub for the frontend
-
 ```bash
 docker run -d -p 8000:8000 --network bcgov-network --name frontend anmolsinghturka/frontend:latest
 ```
-
-3. Navigate to browser  
-   
+2. Navigate to browser to access backend and frontend
 ```bash
-backend: http://localhost:3000/api/api-docs/ 
+http://localhost:3000/api/api-docs/ 
 ```
-   
 ```bash
-frontend: http://localhost:8000/
+http://localhost:8000/
 ```
 
 ### Option 2 Run using Docker Compose
