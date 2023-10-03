@@ -25,13 +25,13 @@ docker run -d -p 8000:8000 --network bcgov-network --name frontend anmolsinghtur
 ```
 
 3. Navigate to browser  
-backend
+   
 ```bash
-http://localhost:3000/api/api-docs/ 
+backend: http://localhost:3000/api/api-docs/ 
 ```
-frontend
+   
 ```bash
-http://localhost:8000/
+frontend: http://localhost:8000/
 ```
 
 ### Option 2 Run using Docker Compose
